@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Labs</title>
+</head>
+<body>
+    {% for folder,files in data.items() %}
+        <h3>{{folder}}</h3>
+        <ol>
+            {% for file in files %}
+                <li><a href="{{folder}}/{{file}}">{{file}}</a></li>
+            {% endfor %}
+        </ol>
+    {% endfor %}
+</body>
+</html>
