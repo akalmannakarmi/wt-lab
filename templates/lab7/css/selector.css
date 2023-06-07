@@ -1,0 +1,15 @@
+h5{
+    text-decoration: underline;
+}
+
+.my-class{
+    text-decoration: line-through;
+}
+
+#my-id{
+    font-style: italic;
+}
+
+p[name="att"]{
+    font-size: x-large;
+}

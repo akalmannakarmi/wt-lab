@@ -1,19 +1,16 @@
-from flask import Flask,render_template,redirect,send_file
+from flask import Flask,render_template,redirect,send_from_directory
 from os import path,listdir
 
 app = Flask(__name__)
 
 @app.route('/images/<file>', methods=['GET'])
-@app.route('/<path:folder>/images/<file>', methods=['GET'])
 def get_image(folder='',file=''):
-    return send_file(f'images/{file}', mimetype='image/jpeg')
+    return send_from_directory(f'images',file)
 
-@app.route('/<path:folder>/lab<no>/<file>', methods=['GET'])
-@app.route('/lab<no>/<file>', methods=['GET'])
-def getFile(folder='',no='1',file=''):
-    file = f"lab{no}/{file}"
-    if path.exists(f"templates/{file}"):
-        return render_template(file)
+@app.route('/<path:folder>/<file>', methods=['GET'])
+def getFile(folder,file):
+    if path.exists(f"templates/{folder}/{file}"):
+        return send_from_directory(f"templates/{folder}",file)
     return redirect('/')
 
 @app.route("/",methods=["GET"])

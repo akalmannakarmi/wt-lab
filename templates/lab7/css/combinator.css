@@ -1,0 +1,15 @@
+#general~div{
+    text-decoration: line-through;
+}
+
+#adjacent+div{
+    text-decoration: line-through;
+}
+
+#decendent div{
+    text-decoration: line-through;
+}
+
+#child>div{
+    text-decoration: line-through;
+}
