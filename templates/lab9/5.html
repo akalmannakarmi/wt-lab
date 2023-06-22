@@ -1,0 +1,16 @@
+<html>
+<body>
+    <p id="demo"></p>
+    <script>
+        var text,parser,xmlDoc;
+        var text="<Employee><Technical>"+
+            "<Name>John Keeps</Name>"+
+            "<Contact>jk@gmail.com</Contact>"+
+            "<Address>j street</Address>"+
+            "</Technical></Employee>";
+        parser=new DOMParser();
+        xmlDoc=parser.parseFromString(text,"text/xml");
+        document.getElementById("demo").innerHTML=xmlDoc.getElementsByTagName("Address")[0].childNodes[0].nodeValue;
+    </script>
+</body>
+</html>

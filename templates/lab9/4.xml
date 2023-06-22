@@ -1,0 +1,12 @@
+<Employee>
+    <Technical>
+        <Name>John Keeps</Name>
+        <Contact>jk@gmail.com</Contact>
+        <Address>j street</Address>
+    </Technical>
+    <Non-Technical>
+        <Name>Dank Hoppes</Name>
+        <Contact>dh@gmail.com</Contact>
+        <Address>Dank city</Address>
+    </Non-Technical>
+</Employee>
