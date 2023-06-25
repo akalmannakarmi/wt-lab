@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Friendlist>
+    <Close_Friends>
+        <name>CF1</name>
+        <name>CF2</name>
+        <name>CF3</name>
+    </Close_Friends>
+    <Family_friends>
+        <name>FF1</name>
+        <name>FF2</name>
+        <name>FF3</name>
+    </Family_friends>
+    <College_friends>
+        <name>CoF1</name>
+        <name>CoF2</name>
+        <name>CoF3</name>
+    </College_friends>
+</Friendlist>

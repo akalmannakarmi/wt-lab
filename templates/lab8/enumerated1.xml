@@ -1,0 +1,11 @@
+<tutorials>
+  <tutorial published="yes">
+    <name>XML Tutorial</name>
+  </tutorial>
+  <tutorial published="no">
+    <name>HTML Tutorial</name>
+  </tutorial>
+  <tutorial>
+    <name>CSS Tutorial</name>
+  </tutorial>
+</tutorials>

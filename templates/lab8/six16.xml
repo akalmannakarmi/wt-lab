@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Address[
+<!ELEMENT Address (email, phone, name, permanent-address, temporary-address)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT permanent-address (#PCDATA)>
+<!ELEMENT temporary-address (#PCDATA)>
+]>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Address">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="email"/>
+        <xs:element type="xs:float" name="phone"/>
+        <xs:element type="xs:string" name="name"/>
+        <xs:element type="xs:string" name="permanent-address"/>
+        <xs:element type="xs:string" name="temporary-address"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

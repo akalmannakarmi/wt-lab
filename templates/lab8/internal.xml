@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Fruits[
+    <!ELEMENT Fruits (Fruits1, Fruits2)>
+    <!ELEMENT Fruits1 (name, color, taste)>
+    <!ELEMENT Fruits2 (name, color, taste)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT taste (#PCDATA)>
+]>
+<Fruits>
+    <Fruits1>
+        <name>mango</name>
+        <color>yellow</color>  
+        <taste>sweet</taste>
+    </Fruits1>
+    <Fruits2>
+        <name>organge</name>
+        <color>orange</color>
+        <taste>sour</taste>
+    </Fruits2>
+</Fruits>

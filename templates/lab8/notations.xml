@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mountains country="NZ AU">
+  <mountain>
+    <name>Mountain1</name>
+  </mountain>
+  <mountain>
+    <name>Mountain2</name>
+  </mountain>
+</mountains>

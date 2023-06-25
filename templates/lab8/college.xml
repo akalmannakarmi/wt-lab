@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+    <class1>
+        <name>Name1</name>
+        <roll>1</roll>
+        <address>Address1</address>
+    </class1>
+    <class2>
+        <name>Name2</name>
+        <roll>2</roll>
+        <address>Address2</address>
+    </class2>
+    <class3>
+        <name>Name3</name>
+        <roll>3</roll>
+        <address>Address3</address>
+    </class3>
+</college>

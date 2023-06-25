@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mountains>
+  <mountain mountain_id="m10001">
+    <name>Mountain1</name>
+  </mountain>
+  <mountain  mountain_id="m10002">
+    <name>Mountain2</name>
+  </mountain>
+</mountains>

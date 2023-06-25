@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <s1:school xmlns:s1="school1">
+        <s1:class1>
+            <s1:name>Name1</s1:name>
+            <s1:name>Name2</s1:name>
+        </s1:class1>
+        <s1:class2>
+            <s1:name>Name3</s1:name>
+            <s1:name>Name4</s1:name>
+        </s1:class2>
+        <s1:class3>
+            <s1:name>Name5</s1:name>
+            <s1:name>Name6</s1:name>
+        </s1:class3>
+    </s1:school>
+    <s2:school xmlns:s2="school2">
+        <s2:class1>
+            <s2:name>Name7</s2:name>
+            <s2:name>Name8</s2:name>
+        </s2:class1>
+        <s2:class2>
+            <s2:name>Name9</s2:name>
+            <s2:name>Name10</s2:name>
+        </s2:class2>
+        <s2:class3>
+            <s2:name>Name11</s2:name>
+            <s2:name>Name12</s2:name>
+        </s2:class3>
+    </s2:school>
+    <s3:school xmlns:s3="school3">
+        <s3:class1>
+            <s3:name>Name13</s3:name>
+            <s3:name>Name14</s3:name>
+        </s3:class1>
+        <s3:class2>
+            <s3:name>Name15</s3:name>
+            <s3:name>Name16</s3:name>
+        </s3:class2>
+        <s3:class3>
+            <s3:name>Name17</s3:name>
+            <s3:name>Name18</s3:name>
+        </s3:class3>
+    </s3:school>
+</root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address[
+<!ELEMENT address (entities)>
+<!ELEMENT entities (#PCDATA)>
+<!ENTITY name "this is name">
+<!ENTITY company "this is company">
+<!ENTITY phone-no "977-*****">
+]>
+<address>
+    <entities>
+        &name;
+        &company;
+        &phone-no;
+    </entities>
+</address>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees>
+  <employee employee_id="e10001" manager_id="e10002">
+    <first_name>FName1</first_name>
+    <last_name>LName1</last_name>
+  </employee>
+  <employee employee_id="e10002">
+    <first_name>FName2</first_name>
+    <last_name>LName2</last_name>
+  </employee>
+</employees>

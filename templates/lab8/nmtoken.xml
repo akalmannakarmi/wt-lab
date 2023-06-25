@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<individuals>
+  <individual individual_id="e10001" parent_id="e10002 e10003">
+    <first_name>FirstName1</first_name>
+    <last_name>LastName1</last_name>
+  </individual>
+  <individual individual_id="e10002">
+    <first_name>FirstName2</first_name>
+    <last_name>LastName2</last_name>
+  </individual>
+  <individual individual_id="e10003">
+    <first_name>FirstName3</first_name>
+    <last_name>LastName3</last_name>
+  </individual>
+</individuals>

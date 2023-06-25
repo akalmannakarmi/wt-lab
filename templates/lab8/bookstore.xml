@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Bookstore[
+    <!ELEMENT Bookstore (Catagory1, Catagory2, Catagory3)>
+    <!ELEMENT Catagory1 (name, price, author)>
+    <!ELEMENT Catagory2 (name, price, author)>
+    <!ELEMENT Catagory3 (name, price, author)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+]>
+<Bookstore>
+    <Catagory1>
+        <name>Name1</name>
+        <price>1234</price>
+        <author>Author1</author>
+    </Catagory1>
+    <Catagory2>
+        <name>Name2</name>
+        <price>1631</price>
+        <author>Author2</author>
+    </Catagory2>
+    <Catagory3>
+        <name>Name3</name>
+        <price>6432</price>
+        <author>Author3</author>
+    </Catagory3>
+</Bookstore>

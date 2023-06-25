@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Email SYSTEM "note321.dtd">
+<Email>
+    <Note1>
+        <to>Reciver1</to>
+        <from>Sender1</from>
+        <head>Heading1</head>
+        <body>Body1</body>
+    </Note1>
+    <Note2>
+        <to>Reciver2</to>
+        <from>Sender2</from>
+        <head>Heading2</head>
+        <body>Body2</body>
+    </Note2>
+    <Note3>
+        <to>Reciver3</to>
+        <from>Sender3</from>
+        <head>Heading3</head>
+        <body>Body3</body>
+    </Note3>
+</Email>

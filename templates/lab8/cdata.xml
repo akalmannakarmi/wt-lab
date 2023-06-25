@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE football [
+<!ELEMENT football (position)>
+<!ELEMENT position (ATK, DEF, GK)>
+<!ELEMENT ATK (#PCDATA)>
+<!ELEMENT DEF (#PCDATA)>
+<!ELEMENT GK (#PCDATA)>
+<!ATTLIST football position CDATA "3">]>
+<football>
+<position>
+<ATK>45%</ATK>
+<DEF>65%</DEF>
+<GK>20%</GK>
+</position>
+</football>

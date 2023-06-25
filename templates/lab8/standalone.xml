@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE Tutorial SYSTEM "tutorial.dtd"[
+<!ELEMENT tutorial (summary) >  
+<!ELEMENT summary (#PCDATA)>
+ ]>
+ <Tutorial>
+    <tutorial>
+    <name>xml tutorial</name>
+    <url> https.//xmlfile.com</url>
+    <summary>XML Summary</summary>
+    </tutorial>
+    <tutorial>
+    <name>html tutorial</name>
+    <url> https.//htmlfile.com</url>
+    <summary>HTML Summary</summary>
+    </tutorial>
+</Tutorial>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE address SYSTEM "external.dtd">
+<address>
+   <Permanent-address>
+      <name> Name1 </name>
+      <company> Company1 </company>
+      <phone-no> 900 </phone-no>
+   </Permanent-address>
+   <Temporary-address>
+      <name> Name2 </name>
+      <company> Company2</company>
+      <phone-no> 901</phone-no>
+   </Temporary-address>
+</address>

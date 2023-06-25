@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Email [
+<!ELEMENT Email (Note3, Note2, Note1)>
+<!ELEMENT Note3 (to, from, head, body)>
+<!ELEMENT Note2 (to, from, head, body)>
+<!ELEMENT Note1 (to, from, head, body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
