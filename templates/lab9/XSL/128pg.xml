@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstyle1.xsl"?>
+<books>
+    <heading>Welcome To GreeksforGeeks</heading>
+    <book> 
+        <title>Web Programming </title>
+        <author> Chrisbates</author>
+        <publisher>Wiley</publisher>
+        <edition>3</edition>
+        <price>300</price>
+    </book>
+    <book> 
+        <title>Computer Networks </title>
+        <author> Foruouzan</author>
+        <publisher>Mc Graw Hill</publisher>
+        <edition>5</edition>
+        <price>700</price>
+    </book>
+    <book> 
+        <title>DBMS Concepts </title>
+        <author> Navath</author>
+        <publisher>Oxford</publisher>
+        <edition>8</edition>
+        <price>300</price>
+    </book>
+    <book> 
+        <title>Linux Programming </title>
+        <author> Subhitab Das</author>
+        <publisher>Oxford</publisher>
+        <edition>8</edition>
+        <price>500</price>
+    </book>
+</books>
+ 

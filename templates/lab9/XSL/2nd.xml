@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml_stylesheet type="text/xsl" href="p.xsl"?>
+<catalog>
+    <cd>
+        <title>Thriller</title>
+        <artist>Michael Jackson</artist>
+        <country>United States</country>
+        <price>$10.99</price>
+        <year>1982</year>
+    </cd>
+    <cd>
+        <title>21</title>
+        <artist>Adele</artist>
+        <country>United Kingdom</country>
+        <price>$12.99</price>
+        <year>2011</year>
+    </cd>
+    <cd>
+        <title>Abbey Road</title>
+        <artist>The Beatles</artist>
+        <country>United Kingdom</country>
+        <price>$9.99</price>
+        <year>1969</year>
+    </cd>
+</catalog>

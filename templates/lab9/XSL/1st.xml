@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml_stylesheet type="text/xsl" href="student.xsl"?>
+<class>
+    <student>
+        <FirstName>FName1</FirstName>
+        <LastName>LName1</LastName>
+        <NickName>NName1</NickName>
+    </student>
+    <student>
+        <FirstName>FName2</FirstName>
+        <LastName>LName2</LastName>
+        <NickName>NName2</NickName>
+    </student>
+    <student>
+        <FirstName>FName3</FirstName>
+        <LastName>LName3</LastName>
+        <NickName>NName3</NickName>
+    </student>
+    <student>
+        <FirstName>FName4</FirstName>
+        <LastName>LName4</LastName>
+        <NickName>NName4</NickName>
+    </student>
+    <student>
+        <FirstName>FName5</FirstName>
+        <LastName>LName5</LastName>
+        <NickName>NName5</NickName>
+    </student>
+    <student>
+        <FirstName>FName6</FirstName>
+        <LastName>LName6</LastName>
+        <NickName>NName6</NickName>
+    </student>
+</class>
